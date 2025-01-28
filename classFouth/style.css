@@ -1,0 +1,26 @@
+:root {
+  --stylefont: "Playwrite IN", serif;
+  --mainColor: red;
+  --secondColor: green;
+}
+
+h1 {
+  background-color: var(--secondColor);
+  background-size: cover;
+  font-family: var(--stylefont);
+}
+p {
+  font-family: var(--stylefont);
+}
+a {
+  margin-top: 20px;
+  border: 2px solid red;
+  padding: 8px 18px;
+  border-radius: 7px;
+}
+input {
+  margin-top: 20px;
+}
+input:focus {
+  outline: none;
+}

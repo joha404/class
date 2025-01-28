@@ -1,0 +1,48 @@
+/* a {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: yellow;
+}
+li {
+  list-style-type: square;
+}
+li a {
+  text-decoration: none; */
+/* } */
+/* table style start  */
+/* table,
+th,
+td {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  height: 350px;
+  width: 40%;
+  text-align: center;
+}
+#div3 h1 {
+  color: red;
+} */
+
+/* table section end  */
+.div1 {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  margin: 10px;
+  opacity: 1;
+}
+.div2 {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  margin-top: -100px;
+  opacity: 0.5;
+}
