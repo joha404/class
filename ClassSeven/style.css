@@ -1,0 +1,44 @@
+/* .main {
+  position: relative;
+  background-color: red;
+  height: 200px;
+}
+
+.div0 {
+  position: relative;
+  z-index: 25;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+}
+
+.div1 {
+  position: absolute;
+  z-index: 6;
+  background: lightgray;
+  height: 60px;
+  width: 70%;
+  left: 50px;
+  top: 50px;
+}
+
+.div2 {
+  position: absolute;
+  z-index: 22;
+  background: lightgreen;
+  width: 35%;
+  left: 270px;
+  top: -15px;
+  height: 100px;
+} */
+
+.heading1 {
+  display: none;
+}
+a {
+  display: inline;
+  background-color: red;
+}
+h1 {
+  display: inline-block;
+}
