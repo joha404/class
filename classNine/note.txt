@@ -1,0 +1,22 @@
+
+1. this is CSS Syntax 
+box-shadow: offsetX offsetY blurRadius spreadRadius color;
+
+
+
+offsetX: Horizontal shadow distance (positive for right, negative for left);
+
+offsetY: Vertical shadow distance (positive for down, negative for up);
+
+blurRadius: How much the shadow should blur;
+
+spreadRadius: How much the shadow should spread (optional);
+
+color: The color of the shadow;
+
+
+
+
+2. this is practical use 
+
+box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
