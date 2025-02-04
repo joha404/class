@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6 {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+}
+
+.main {
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-evenly;
+}
