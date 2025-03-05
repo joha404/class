@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Java Script Class Five</title>
+  </head>
+  <style>
+    /* body {
+      text-align: center;
+    }
+    button {
+      height: 62px;
+      width: 200px;
+      border-radius: 10px;
+      border: none;
+      background-color: #878787;
+      color: rgb(5, 5, 131);
+      padding: 10px;
+      font-size: 24px;
+      margin-top: 100px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: rgb(22, 18, 18);
+      color: #fff;
+    }
+    button:active {
+      background-color: rgb(225, 220, 210);
+      color: #000;
+    } */
+    p {
+      color: red;
+    }
+  </style>
+
+  <body>
+    <div class="signup" onsubmit="formSubmit(event)">
+      <form>
+        <label for="username">Username</label> <br />
+        <input type="text" id="username" placeholder="Enter Username" />
+        <br /><br />
+        <p id="usernameAlert"></p>
+        <label for="email">Email</label> <br />
+        <input type="email" id="email" placeholder="Enter Email" />
+        <br /><br /><label for="password">Password</label> <br />
+        <input type="password" id="password" placeholder="Enter Password" />
+        <br /><br /><label for="phone">Phone</label> <br />
+        <input type="number" id="phone" placeholder="Enter Phone" />
+        <br /><br />
+      </form>
+      <button onclick="formSubmit()">Sign Up</button>
+    </div>
+
+    <!-- <button id="clickMe" onmouseover="myFunction()">Submit</button> -->
+    <script>
+      //   document.getElementById("clickMe").addEventListener("mouseover", () => {
+      //     const htmlBody = (document.getElementById("mybody").style =
+      //       "background-color: black");
+      //   });
+      //   function myFunction() {
+      //     const htmlBody = (document.getElementById("mybody").style =
+      //       "background-color: black");
+      //   }
+
+      function formSubmit(e) {
+        // e.preventDefault();
+        var username = document.getElementById("username").value;
+        console.log(username);
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+        var phone = document.getElementById("phone").value;
+
+        // console.log(`Your Username is : ${username}`);
+        // console.log(`Your Email is : ${email}`);
+        // console.log(`Your Password is : ${password}`);
+        // console.log(`Your Phone is : ${phone}`);
+        if (username.length < 3 || username.length > 6) {
+          document.getElementById("usernameAlert").innerHTML =
+            "please enter a username 3 to 6 charecter";
+        } else {
+          console.log(username);
+        }
+      }
+    </script>
+  </body>
+</html>
